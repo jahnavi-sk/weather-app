@@ -9,13 +9,13 @@ function App() {
             <h2 className="text-gray-900 text-5xl font-semibold md:pl-20">Weather</h2>
       </header>
 
-      <div className='md:flex justify-center pb-12 pl-20'>
+      <div className='flex justify-start pl-7 md:justify-center pb-12 md:pl-19 pt-7 '>
         <div>
           <h4 className='text-3xl font-light from-neutral-600 pr-5'>Search: </h4>
         </div>
         <div>
           {/* <input type="text" className='text-3xl w-96' placeholder="Search for a city" /> */}
-          <input class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 pt-2 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search for a city..." type="text" name="search"/>
+          <input className="placeholder:italic placeholder:text-slate-400 block bg-white md:w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 pt-2 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-l" placeholder="Search for a city..." type="text" name="search"/>
         </div>
       </div>
 
@@ -106,8 +106,10 @@ function App() {
           </div>
         </div>
 
+
       </div>
 
+        
     
       </div>
 
