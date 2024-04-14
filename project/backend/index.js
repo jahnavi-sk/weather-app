@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 async function getCurrentWeather(cityName) {
-  const apiKey = 'd0e75fd4c0a5a9590f67653abc78aa32';     // Replace with your OpenWeatherMap API key
+  const apiKey = 'API__kEY';     // Replace with your OpenWeatherMap API key
   const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
 
   try {
